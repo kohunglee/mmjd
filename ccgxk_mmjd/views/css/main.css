@@ -1,0 +1,35 @@
+/* CSS 常识，必须有的一个 */
+* { 
+	box-sizing: border-box
+}
+
+/* 布局 */
+.nav-marginAuto,main,.site-position {
+    max-width: 1260px;
+    margin: 20px auto;
+  }
+.site-main {
+    display: flex;
+}
+.site-sides {
+    width: 300px;
+}
+.site-loglist,.site-echolog {
+    flex: 1;
+    overflow: auto;
+}
+@media screen and (max-width: 960px) {
+    .site-sides {
+        display: none;
+    } 
+    .mh {
+        display: none!important;
+    } 
+}
+
+/* 其他全局样式 */
+.unstyle-li {
+	padding-left: 0px;
+	list-style: none;
+	margin-block: 8px;
+}

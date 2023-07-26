@@ -1,0 +1,269 @@
+/* style */
+
+/* 背景 */
+body {
+    background-color: #f6f6f6;
+}
+
+/* moreinfo 作者头像 */
+.moreinf-autherimg {
+    max-width: 40px;
+    top: 12px;
+    position: relative;
+}
+
+/* 文章列出页的文章标题 */
+.site-loglist-title {
+    margin: 0;
+}
+
+.site-echolog {
+    padding: 0 1em 1em;
+    background-color: white;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/* 文章列出页 */
+.site-single-listlog {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #f3f3f3;
+}
+
+/* 页头的导航链接 */
+.site-nav-link {
+    display: inline-block;
+}
+
+/* 访客当前位置 */
+.site-position {
+    line-height: 0;
+    position: relative;
+    top: -6px;
+}
+
+/* 组件 */
+.widget {
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: #fafafa;
+}
+
+/* 页足 */
+footer {
+    padding: 1em;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+
+.site-desc {
+    /* text-decoration: overline; */
+}
+.site-header a {
+    color: black;
+    text-decoration: none;
+    padding: 0.2em;
+}
+.site-name a {
+    font-size: 1.5em;
+}
+.site-header a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.nav-link-right {
+    float: right;
+    margin-top: 3px;
+}
+
+
+.site-nav {
+    margin-block: 2em;
+    background: beige;
+}
+.site-nav::after {
+    content: "";
+}
+
+/* 尝试导航左右分栏 */
+.site-infos {
+    display: flex;
+    flex-direction: row;
+}
+.headerinfo-left {
+    min-width: 50%;
+    display: inline-block;
+}
+.headerinfo-right {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* 左边的内容 */
+@media screen and (max-width: 960px) {
+    .headerinfo-left {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* 右边的内容 */
+.nav-notice {
+    margin-top: 30px;
+}
+
+/* 侧边栏 和 主栏 */
+.site-sides {
+    padding: 0.5em;
+    margin-right: 1em;
+    background-color: white;
+}
+.site-loglist {
+    padding: 2em;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+/* 个人资料 */
+.bloggerinfo {
+    text-align: center;
+}
+.bloggerinfo-img {
+    width: 40%;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+/* 标签（侧边栏） */
+.site-side-tags {
+    display: inline-block;
+}
+
+/* 最新评论 */
+.comment-info_img {
+    width: 30px;
+    border-radius: 50%;
+}
+.logcom-latest-time {
+    float: right;
+}
+.comm-lates-name {
+    position: absolute;
+    margin-inline: 6px;
+    margin-top: 4px;
+}
+.latest-com-content {
+    padding: 0.2em;
+}
+
+/* 搜索 */
+.search {
+    width: 80%;
+    box-shadow: none;
+    padding: 0.4rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+/* 日历 */
+.cal_loading {
+	margin-bottom: 243px
+}
+#calendar {
+	color: #212529
+}
+.calendartop {
+	letter-spacing: 3px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+	color: #000
+}
+.calendartop a {
+	font-weight: 100 !important
+}
+.calendar {
+	margin-bottom: -10px;
+	width: 100%
+}
+.calendar td {
+	text-align: center;
+	padding: 1px 10px;
+	line-height: 1.6
+}
+.calendar td a:link {
+	color: #000;
+	font-weight: bolder;    
+	text-decoration: underline
+}
+.calendar td a:hover {
+	color: #886353;
+	text-decoration: none
+}
+.calendar tr {
+	height: 40px
+}
+.day {
+	color: #212529;
+	background: #eaeaea;
+	border-radius: var(--marRadius)
+}
+.sun {
+	color: #333
+}
+.week {
+	color: #333
+}
+
+/* 分页 */
+.pagination {
+	font-size: 14px;
+	padding: 10px;
+	text-align: center
+}
+.pagination span {
+	padding: 5.5px 6px 3px 6px;
+	margin: 0 5px;
+	border-radius: 8px;
+	line-height: 3;
+	color: #858796
+}
+.pagination a {
+	color: #c0bcbc;
+	padding: 5.5px 10px 6px 10px;
+	background: white;
+	margin: 0 5px;
+	line-height: 3;
+	border-radius: 8px
+}
+.pagination a:hover {
+	text-decoration: none
+}
+#pagenavi {
+	text-align: center;
+	font-size: 14px
+}
+#pagenavi span {
+	padding: 4.5px 9px 4px 9px;
+	margin: 0 5px;
+	line-height: 3;
+	border-radius: var(--marRadius);
+	color: #000
+}
+#pagenavi a {
+	color: #c0bcbc;
+	padding: 4.5px 9px 4px 9px;
+	font-family: serif, monospace;
+	margin: 0 5px;
+	line-height: 3;
+	border-radius: var(--marRadius)
+}
