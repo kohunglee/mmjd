@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name:秘密基地
+Template Name:秘密基地 mmjd
 Template Url:https://www.ccgxk.com/
 Description:串串狗 CMS 主题代码工坊的第一个作品。
 Author:串串狗 xk
